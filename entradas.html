@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>VALENCIA FC - ENTRADAS</title>
+</head>
+<body>
+    <h1>ENTRADAS</h1>
+
+    <div class="enlaces">
+        <a href="index.html">INICIO</a>
+        <br>
+        <br>
+        <a href="plantilla.html">PLANTILLA</a>
+        <br>
+        <br>
+        <a href="entradas.html">ENTRADAS</a>
+        <br>
+        <br>
+        <a href="contacto.html">CONTACTO</a>
+    </div>
+
+    <br><br>
+
+    <div class="div_entradas">
+
+    <form>
+        <label for="nombre">Nombre completo:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="fecha">Fecha del partido:</label><br>
+        <input type="date" id="fecha" name="fecha" required><br><br>
+
+        <label for="tipo">Tipo de entrada</label><br>
+        <select id="tipo" name="tipo" required>
+            <option value="general">General</option>
+            <option value="vip">VIP</option>
+        </select><br><br>
+
+        <button type="submit">Enviar solicitud</button>
+    </form>
+
+    </div>
+
+</body>
+</html>
